@@ -1,5 +1,5 @@
  # `APP LIVE`
-  - [TinderLive]() 
+  - [TinderLive]()  
        
 # `SNEAKY PEAK`
   - ![Tinder Snekay Peak](https://github.com/Kabi4/TinderTheSwipeApp/blob/main/SneakyPeak.png)  
