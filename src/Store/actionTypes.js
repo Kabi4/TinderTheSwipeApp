@@ -1,0 +1,7 @@
+//AUTH
+export const AUTHSUCCESS = "AUTHSUCCESS";
+export const AUHTFAILED = "AUHTFAILED";
+export const SETDOCNUMBER = "SETDOCNUMBER";
+
+//MATCHES
+export const SETMATCHES = "SETMATCHES";
