@@ -5,7 +5,7 @@
   - ![Tinder Snekay Peak](https://github.com/Kabi4/TinderTheSwipeApp/blob/main/SneakyPeak.png)   
   
 # `BUILD INFO`
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
 
 ## Available Scripts
 
