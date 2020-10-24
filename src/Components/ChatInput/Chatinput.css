@@ -1,0 +1,21 @@
+.message__input{
+    display: flex;
+    position: fixed;
+    max-width: 55vw;
+    width: 100%;
+    bottom: 1.4rem;
+}
+
+.message__input > input{
+    border: none;
+    outline: none;
+    border-bottom: 1px lightgray solid;
+    font-family: inherit;
+    flex: 1;
+    padding: 10px;
+    transition: all 0.2 ease-in;
+}
+
+.message__input > input:focus{
+    border-bottom: 1px gray solid;
+}

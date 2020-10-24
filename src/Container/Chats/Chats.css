@@ -1,0 +1,12 @@
+.chats{
+    margin-top: 1rem;
+    max-height: calc(80vh-95px);
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.chats::-webkit-scrollbar{
+    display: none;
+}
+

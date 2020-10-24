@@ -1,0 +1,53 @@
+.card{
+    position: relative;
+    width: 600px;
+    padding: 20px;
+    max-width: 55vw;
+    height: 60vh;
+    background-size: cover;
+    border-radius: 2rem;
+    background-position: center;
+    box-shadow: 0px 18px 53px 8px rgba(0,0,0,0.3) !important;
+    overflow: hidden;
+}
+
+.card > h3{
+    color: white;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.tinderContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+    position: relative;
+}
+
+.swipe{
+    position: absolute;
+}
+
+.swipe__last{
+    position: absolute;
+    top: 0 !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    
+}
+
+.card__last > h3{
+    position: absolute;
+    top: 60% !important;
+    left: 10% !important;
+    line-height: 1.6;
+    transform:  translateY(-50%) !important;
+    color: rgb(247, 243, 243);
+    font-size: 2.5rem !important;
+    font-weight: 900   !important;
+    cursor: pointer;
+    
+}
+.card__last{
+    background-color: rgba(0,0,0,0.1);
+}

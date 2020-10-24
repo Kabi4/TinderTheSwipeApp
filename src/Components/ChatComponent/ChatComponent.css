@@ -1,0 +1,30 @@
+.chatcomponent{
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 2rem;
+}
+
+
+
+.chatcomponent__info{
+    margin-left: 1rem;
+    padding: 1.5rem;
+    background-color: lightgray;
+    border-radius: 2rem;
+}
+
+.chatcomponent.self > .chatcomponent__info{
+    background-color: #29b3cd !important;
+    margin-left: auto !important;
+}
+
+.chatcomponent__timestamp{
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+
+.chatcomponent.self > .chatcomponent__timestamp{
+    left: 8px !important;
+}

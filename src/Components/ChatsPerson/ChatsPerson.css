@@ -1,0 +1,32 @@
+.chatsPerson{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    height: 7rem;
+    border-bottom: 1px solid #fafafa;
+    cursor: pointer;
+}
+
+.chatsPerson:hover{
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #eee9e9;
+}
+
+.chatsPerson__info{
+    flex: 1;
+    margin-left: 2rem;
+}
+
+.chatPerson__timestamp{
+    color: lightgray;
+}
+
+.chatsPerson__info > p{
+    color: gray;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

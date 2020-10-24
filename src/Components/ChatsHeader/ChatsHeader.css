@@ -1,0 +1,18 @@
+.chatHeader{
+    padding: 2rem;
+    display: flex;
+    border-bottom: 1px solid #f9f9f9;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chatHeader > img{
+    height: 40px;
+    width: 40px;
+    object-fit: contain;
+}
+
+.chatHeader .MuiSvgIcon-root{
+    font-size: 3rem !important;
+    color: gray;
+}
